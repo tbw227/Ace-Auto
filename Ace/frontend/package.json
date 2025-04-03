@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.21.2"
+  },
+  "name": "desktop",
+  "version": "1.0.0",
+  "description": "Ace auto repair glass",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbw227.git"
+  },
+  "author": "Tim Withrow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbw227/issues"
+  },
+  "homepage": "https://github.com/tbw227#readme",
+  "devDependencies": {}
+}
