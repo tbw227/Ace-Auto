@@ -3,7 +3,7 @@
 
 export async function initMap() {
   // The location of Uluru
-  const position = { lat: 39.087, lng: -94.623 };
+  const position = { lat: 39.087822, lng: -94.623521 };
   // Request needed libraries.
   //@ts-ignore
   const { Map } = await google.maps.importLibrary("maps");
@@ -11,7 +11,7 @@ export async function initMap() {
 
   // The map, centered at Uluru
   const map = new Map(document.getElementById("map"), {
-    zoom: 4,
+    zoom: 15,
     center: position,
     mapId: "windshield-repair-map",
   });
