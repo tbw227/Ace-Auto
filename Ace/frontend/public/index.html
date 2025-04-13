@@ -17,6 +17,9 @@
       rel="stylesheet"
     />
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet"
@@ -34,7 +37,7 @@
         </div>
 
         <!-- Add a toggle button for mobile navigation -->
-        <button class="toggle-navbar">Menu</button>
+        <!--<button class="toggle-navbar">Menu</button>-->
 
         <div class="nav__links">
           <a href="#home" class="nav__link">Home</a>
@@ -124,9 +127,25 @@
           Have a air or moisture leak, how about a chip maybe a crack? Let Ace
           Auto Glass be your fix
         </p>
-        <button class="cta__button cta__button--primary">
+        <section class="modal hidden">
+          <div class="flex">
+           <button class="btn-close ">x</button>
+          </div>
           Schedule an Appointment
-        </button>
+          <div>
+            <h3>Stay in touch</h3>
+            <p>
+              This is a dummy newsletter form so don't bother trying to test it. Not
+              that I expect you to, anyways. :)
+            </p>
+          </div>
+        
+          <input type="email" id="email" placeholder="brendaneich@js.com" />
+          <button class="btn">Submit</button>
+        </section>
+        
+        <div class="overlay hidden"></div>
+        <button class="btn-open">Open Modal</button>
       </section>
 
       <section class="about">
@@ -147,7 +166,7 @@
                 <img src="..." class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="https://apis.mail.yahoo.com/ws/v3/mailboxes/@.id==VjN-PdtnVg8_kDpmFMSginCfW5ncXUi6EKJLI_N04K9wQAXfSy0lhuUtMKo4Vr26nW5CGl2LEeEb8L4Fd0GBJs5fOA/messages/@.id==AGRTJOVZzRRrZ_GmDATtuIu3z7k/content/parts/@.id==2/refresh?appid=YMailNorrinLaunch&ymreqid=82b32d4f-45a8-3edc-1ce2-610000010f00" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
                 <img src="..." class="d-block w-100" alt="...">

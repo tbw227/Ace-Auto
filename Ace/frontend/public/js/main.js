@@ -1,5 +1,6 @@
 import { initMap } from './map.js';
 import { setupNavigation } from './navbar.js';
+import { openModal, closeModal } from './button-modal.js';
 
 document.addEventListener('DOMContentLoaded', () => {
     initMap();

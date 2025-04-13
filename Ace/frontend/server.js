@@ -7,10 +7,7 @@ const port = 4000;
 app.use(express.static(path.join(__dirname, 'public')))
 
 //Serve the index.html file for the root route
-app.get('/', (req, res) => {
-  res.sendfile(path.join(__dirname,'public', 'index.html'));
-});
- 
+
 app.listen(port, () => {
   console.log(`Server is running at http://localhost:${port}`);
 });
